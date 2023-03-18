@@ -1,0 +1,10 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "chat",
+  "main": "index.js",
+  "repository": "https://github.com/borjaja/chat",
+  "author": "me@borjaap.com",
+  "license": "Apache License 2.0",
+  "private": false
+}
