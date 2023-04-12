@@ -1,6 +1,15 @@
-import addBodyParser from "./addBodyParser";
-import addCors from "./addCors";
+import bodyParser from "./bodyParser";
+import cors from "./cors";
+import errorLogger from "./errorLogger";
+import errorResponder from "./errorResponder";
+import invalidPathHandler from "./invalidPathHandler";
 
-const middlewares = { addBodyParser, addCors };
+const middlewares = {
+  bodyParser,
+  cors,
+  errorLogger,
+  errorResponder,
+  invalidPathHandler,
+};
 
 export default middlewares;

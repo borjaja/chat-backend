@@ -8,5 +8,5 @@
   "search.exclude": {
     "**/dist": true
   },
-  "jest.jestCommandLine": "yarn test"
+  "jest.jestCommandLine": "yarn run test"
 }
